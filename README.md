@@ -1,2 +1,3 @@
-# How to navigate the Tutorials:
-The different tutorials are .md files. Simply click on them to read them!
+# How to navigate the Repo:
+To download the template either download this branch or download a Release <br>
+To view the tutorials switch to the tutorial branch
