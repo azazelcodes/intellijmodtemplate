@@ -23,15 +23,15 @@ To use events I recommend creating a package called something like "Events" </br
    ***Example:*** </br>
    ```java
    public class OnChatReceived {
-       @SubscribeEvent(priority = EventPriority.HIGHEST)
-	      public void chat(ClientChatReceivedEvent event) {
-		         String message = event.message.getUnformattedText();
-		         if (message.startsWith("Your new API key is ")) {
-			            String key = message.split("key is ")[1];
-                        Config.apiKey = key;
-			            Utility.sendMsg("§aAPI Key set to " + key);
-		         }
-       }
+   	@SubscribeEvent(priority = EventPriority.HIGHEST)
+   	public void chat(ClientChatReceivedEvent event) {
+   		String message = event.message.getUnformattedText();
+   		if (message.startsWith("Your new API key is ")) {
+   			String key = message.split("key is ")[1];
+   			Config.apiKey = key;
+   			Utility.sendMsg("§aAPI Key set to " + key);
+   		}
+   	}
    }
    ```
    </br>
@@ -41,15 +41,14 @@ To use events I recommend creating a package called something like "Events" </br
    ***Example:*** </br>
    ```java
    public class OnTick {
-       private static int ticks = 0;
-   
-       @SubscribeEvent
-	      public void onTick(TickEvent.ClientTickEvent event) {
-		         if (ticks % 20 == 0) {
-               // Executes every second
-           }
-           ticks++;
-       }
+   	private static int ticks = 0;
+   	@SubscribeEvent
+   	public void onTick(TickEvent.ClientTickEvent event) {
+   		if (ticks % 20 == 0) {
+   			// Executes every second
+   		}
+   		ticks++;
+   	}
    }
    ```
    </br>
@@ -60,11 +59,12 @@ To use events I recommend creating a package called something like "Events" </br
    
    ```java
    public class OnWorldJoin {
-       @SubscribeEvent
-	      public void onEntityJoinWorld(FMLNetworkEvent.ClientConnectedToServerEvent event) {
-		         // Do Stuff
-       }
+   	@SubscribeEvent
+   	public void onEntityJoinWorld(FMLNetworkEvent.ClientConnectedToServerEvent event) {
+   		// Do Stuff
+   	}
    }
    ``` 
    </br> </br>
+   All of the examples are also in the BasicEvents folder
 </br>
