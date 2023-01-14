@@ -14,12 +14,10 @@ buildscript {
     dependencies {
         classpath 'net.minecraftforge.gradle:ForgeGradle:2.1-SNAPSHOT'
 	  classpath 'com.github.jengelman.gradle.plugins:shadow:1.2.3'
-        classpath "gradle.plugin.com.github.rzabini:gradle-jython:1.1.0"
     }
 }
 apply plugin: 'net.minecraftforge.gradle.forge'
 apply plugin: "com.github.johnrengelman.shadow"
-apply plugin: "com.github.rzabini.gradle-jython"
 apply plugin: "java"
 
 minecraft {
