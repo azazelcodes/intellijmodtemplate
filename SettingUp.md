@@ -19,4 +19,4 @@ https://github.com/rayorsomething/intellijmodtemplate
 5. Start coding!
 
 ## The Basics of Forge Mods
-Sadly, this is the end of this Mini-Tutorial but there are many great tutorials out there and maybe, if I'm bored again, I'll make a sequel! If you want to stay updated just check in on the ModTemplate Repo.
+[NEXT TUTORIAL](TheBasics.md)
