@@ -10,5 +10,9 @@ Note that when you add a step you will also have to change the number of steps (
    </br>
 2. **Registering Events** </br>
 To use events I recommend creating a package called something like "Events" </br>
-Click [here](Events.md) to learn more about events!
+Click [here](Events.md) to learn more about events!</br>
 </br>
+3. **Registering Commands** </br>
+   To use events I recommend creating a package called something like "Commands" </br>
+   Click [here](Commands.md) to learn more about events!</br>
+   </br>
