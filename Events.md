@@ -39,11 +39,11 @@
    }
    ```
    </br>
+
    
    3. `OnWorldJoin`: </br>
    This can be used to get which server the player joined or update your variables. </br>
    ***Example:*** </br>
-   
    ```java
    public class OnWorldJoin {
    	@SubscribeEvent
